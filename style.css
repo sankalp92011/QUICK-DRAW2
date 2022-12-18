@@ -1,0 +1,33 @@
+body{
+    background-color: greenyellow;
+}
+h1{
+    color: aqua;
+    background-color: red;
+}
+#show_sketch{
+    float: right;
+}
+#Timer{
+    float: right;
+}
+#Score{
+    float: left;
+}
+canvas{
+    border: 5px solid ;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 5px 5px 38px blue;}
+    to{box-shadow: 1px 1px 38px white;}
+    
+}
+p {
+    padding-top: 10px ;
+    font-size: 25px;
+}
